@@ -22,7 +22,7 @@ These algorithms were ran on the **MAISON-LLF** dataset:
 ### Ex1: BARTMIP
 
 ### Ex2: MV-BARTMIP
-- Extends BARTMIP to multi-view setting
+- Extends BARTMIP to a multi-view-and Consensus-Clustering approach.
 
 ## Evaluation
 - Evaluated with three feature sets:
