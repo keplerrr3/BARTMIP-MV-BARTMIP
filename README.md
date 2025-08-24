@@ -20,7 +20,6 @@ These algorithms were ran on the **MAISON-LLF** dataset:
 ##  Algorithms
 
 ### Ex1: BARTMIP Baseline
-- Compares BARTMIP with BoW, LSTM, TCN, ROCKET
 - Uses 5-fold CV and LOSO CV
 - Metrics: MAE and R²
 
