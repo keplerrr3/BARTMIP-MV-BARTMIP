@@ -24,7 +24,7 @@ These algorithms were ran on the **MAISON-LLF** dataset:
 ### Ex2: MV-BARTMIP
 - Extends BARTMIP to multi-view setting
 
-# Evaluation
+##Evaluation
 - Evaluated with three feature sets:
   - All features
   - Top 16 SHAP features
@@ -35,7 +35,7 @@ These algorithms were ran on the **MAISON-LLF** dataset:
 
 
 
-
+##Requirements
 A **Dockerfile** is provided to ensure reproducible environment setup. 
 
 ---
