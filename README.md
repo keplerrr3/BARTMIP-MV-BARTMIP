@@ -13,22 +13,27 @@ This repository contains the implementation code for the paper:
 
 These algorithms were ran on the **MAISON-LLF** dataset:
 
-- **Modalities**: Smartphone, smartwatch, motion detectors, sleep-tracking , clinical questionnaires.
+- **Modalities**: Smartphone, smartwatch, motion detectors, sleep-tracking.
 - **Labels**: Bi-weekly **Social Isolation Scale (SIS)** and **Oxford Hip Score (OHS)**.
 ---
 
 ##  Algorithms
 
-### Ex1: BARTMIP Baseline
-- Uses 5-fold CV and LOSO CV
-- Metrics: MAE and R²
+### Ex1: BARTMIP
 
 ### Ex2: MV-BARTMIP
 - Extends BARTMIP to multi-view setting
+
+# Evaluation
 - Evaluated with three feature sets:
   - All features
   - Top 16 SHAP features
   - Top 16 features + demographics
+- Metrics: MAE and R²
+- Uses 5-fold CV and LOSO CV
+
+
+
 
 
 A **Dockerfile** is provided to ensure reproducible environment setup. 
