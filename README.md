@@ -9,8 +9,11 @@ This repository contains the implementation code for the paper:
 
 ---
 
-## Dataset
 
+## Abstract
+In this study, we propose a multi-view version of the BARTMIP algorithm, which can learn from data for which only coarse-grained labels are provided. The proposed MV-BARTMIP algorithm can deal with weakly annotated multi-modal data and is able to handle cases of missing data, including modalities and views. The performance of the MV-BARTMIP algorithm is evaluated in a scenario involving the monitoring of older adults' health recovery at home following hip replacement surgery. The performance of MV-BARTMIP and the traditional BARTMIP is benchmarked against several baseline solutions. The experimental results demonstrate that approaching the use case as a multi-view, multi-instance learning task results in more robust and interpretable models. MV-BARTMIP shows superior performance to the best baseline model in all but one scenario, where the results are comparable. Furthermore, its performance is comparable to that of the BARTMIP algorithm, which outperforms the best baseline model in all experimental scenarios.
+
+## Dataset
 These algorithms were ran on the **MAISON-LLF** dataset:
 
 - **Modalities**: Smartphone, smartwatch, motion detectors, sleep-tracking.
@@ -31,8 +34,8 @@ These algorithms were ran on the **MAISON-LLF** dataset:
   - Top 16 features + demographics
 - Metrics: MAE and R²
 - Uses 5-fold CV and LOSO CV
-
-
+### Acknowledgement of SHAP Implementation
+The code for selecting the most relevant features using SHAP values was taken from the [MAISON-LLF repository](https://github.com/abedidev/maison-llf).
 
 
 ## Requirements
