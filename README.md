@@ -43,7 +43,7 @@ A **Dockerfile** is provided to ensure reproducible environment setup.
 ---
 # Time Complexity Analysis
 
-We analyze the time complexity of **Bartmip** and **Mv-Bartmip**, assuming hyperparameters (number of clusters $k_i$, $K$) are predefined.
+We analyze the time complexity of **Bartmip** and **Mv-Bartmip**.
 
 ### Notation
 - $N$ : Number of bags  
